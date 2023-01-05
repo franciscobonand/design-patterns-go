@@ -119,7 +119,7 @@ func (f *BetterFilter) Filter(products []Product, spec Specification) []*Product
 }
 
 
-func main() {
+func mainOCP() {
     apple := Product{"Apple", green, small}
     tree := Product{"Tree", green, large}
     house := Product{"House", blue, large}
