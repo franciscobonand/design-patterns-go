@@ -54,7 +54,7 @@ func (c *Circle) Resize(factor float32) {
 }
 
 func main() {
-   // raster := RasterRenderer{}
+    // raster := RasterRenderer{}
     vector := VectorRenderer{}
     circle := NewCircle(&vector, 5)
     circle.Draw()
